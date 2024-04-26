@@ -13,16 +13,17 @@ driver.find_element(By.ID, 'email').send_keys('geisson@gmaill.com')
 driver.find_element(By.ID, 'passwd').send_keys('123456')
 driver.find_element(By.ID, 'SubmitLogin').click()
 assert driver.find_element(By.XPATH, '//h1[contains(text(), "My account")] | //h1[@class="page-heading"]').is_displayed()
+time.sleep(2)
 
 #mapeamento do link para adicionar um endereço. [Carregar tela de endereços]
 driver.find_element(By.XPATH, '//a[@title="Addresses"] ').click()
-time.sleep(2)
 assert driver.find_element(By.XPATH, '//h1[contains(text(), "My addresses")] | //h1[@class="page-heading"]').is_displayed()
-time.sleep(20)
+time.sleep(2)
 
 #mapeamento do link para a tela de preenchimento do endereço. [Carregar tela com os campos para salvar o endereço]
 driver.find_element(By.XPATH, '//a[@title="Add an address"]').click()
 assert driver.find_element(By.XPATH, '//h1[contains(text(), "Your Addresses")] | //h1[@class="page-subheading"]').is_displayed()
+time.sleep(2)
 
 #preenchimento dos dados de endereço.
 driver.find_element(By.ID, 'company').send_keys('Minha empresa')

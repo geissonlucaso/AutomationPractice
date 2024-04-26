@@ -13,6 +13,6 @@ driver.find_element(By.ID, 'passwd').send_keys('123456')
 driver.find_element(By.ID, 'SubmitLogin').click()
 assert driver.find_element(By.XPATH, '//h1[contains(text(), "My account")] | //h1[@class="page-heading"]').is_displayed()
 print("Login válido.")
-time.sleep(5)
+time.sleep(2)
 
 driver.quit()
