@@ -2,10 +2,10 @@
 
 ## Cenários de Testes
 
-Este repositório contém modelos de testes automatizados realizados para o site [Automation Pratice](http://automationpractice.pl/index.php?controller=authentication&back=myaccount). Foram escolhidos três cenários de testes conforme descritos abaixo. 
+Este repositório contém modelos de testes automatizados realizados para o site [Automation Pratice](http://automationpractice.pl/index.php?controller=authentication&back=myaccount). Foram escolhidos três cenários de testes conforme descritos abaixo.
 
 - Cenário 1: Verificar a criação de um novo usuário.
-  - Dado que o usuário esteja na página de login "Authentication" do “automation practice” 
+  - Dado que o usuário esteja na página de login "Authentication" do “automation practice”
   - Quando o usuário preencher o campo "email address" na categoria "Create an Account" e em seguida clicar no botão "Create an account"
   - Então o usuário será redirecionado para a página "Create an account".
   - Dado que o usuário esteja na página "Create an accout"
@@ -30,7 +30,7 @@ Este repositório contém modelos de testes automatizados realizados para o site
   - Dado que o usuário esteja na página "My address" ou qualquer tela que tenha a navbar
   - Quando o usuário clicar em "Sign out"
   - Então será redirecionado para a página "Authentication".
-  - Dado que o usuário esteja na página "Authentication" 
+  - Dado que o usuário esteja na página "Authentication"
   - Quando o usuário preencher os dados de "email address" e "password" e em seguida clicar em "Sign in"
   - Então será redirecionado para a página "My address" ou a mesma outra tela que estiva aberta
 
@@ -43,8 +43,6 @@ No diretório `tests` há cada um dos cenários para serem executados de forma i
 - Ambiente de desenvolvimento.
 
   - `VS Code`, `Selenium Webdrive`, `Python`, `venv`.
-
-    
 
 - Configuração para execução.
   - Foi utilizado nesse projeto o conceito de `Virtual Environment`para restringir as dependência para apenas o projeto de testes. Ao fazer o clone do repositorio, crie um `venv` por meio do comando `python -m venv venv` e então será criada um diretório `venv` .
