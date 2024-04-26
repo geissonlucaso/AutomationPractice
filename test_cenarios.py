@@ -9,9 +9,9 @@ driver.maximize_window()
 driver.get('http://automationpractice.pl/index.php?controller=authentication&back=myaccount')
 
 #dados.
-email = 'lucas26@email.com'
+email = 'glucas32@email.com'
 password = 123456
-first_name = 'Lucas'
+first_name = 'GLucaso'
 last_name = 'Oliveira'
 
 #-------------Cenário 1 - Criar conta-------------
