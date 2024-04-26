@@ -9,7 +9,7 @@ driver.maximize_window()
 driver.get('http://automationpractice.pl/index.php?controller=authentication&back=myaccount')
 
 #dados.
-email = 'glucas32@email.com'
+email = 'glucaso@email.com'
 password = 123456
 first_name = 'GLucaso'
 last_name = 'Oliveira'
