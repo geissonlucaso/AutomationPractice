@@ -40,6 +40,14 @@ No diretório `tests` há cada um dos cenários para serem executados de forma i
 
 ## Settings e Setup
 
-- Ambiente: VS Code, Selenium Webdrive, Python, venv.
+- Ambiente de desenvolvimento.
+
+  - `VS Code`, `Selenium Webdrive`, `Python`, `venv`.
+
+    
+
 - Configuração para execução.
-  - // TODO
+  - Foi utilizado nesse projeto o conceito de `Virtual Environment`para restringir as dependência para apenas o projeto de testes. Ao fazer o clone do repositorio, crie um `venv` por meio do comando `python -m venv venv` e então será criada um diretório `venv` .
+  - As dependências necessárias para o funcionamento do projeto estão listadas no arquivo `requiriments.txt` e para instalar basta fazer o comando `pip install -r requirements.txt`.
+  - Ative o seu `venv` para acessar as dependências por meio do comando `.\venv\Scripts\Activate.ps1` pelo terminal PowerShell.
+  - O script está pronto para ser executado.
