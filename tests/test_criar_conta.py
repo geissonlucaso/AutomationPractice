@@ -9,7 +9,7 @@ driver.maximize_window()
 driver.get('http://automationpractice.pl/index.php?controller=authentication&back=myaccount')
 
 #mapeamento do input para criar conta.
-driver.find_element(By.ID, 'email_create').send_keys('gluks@email.com')
+driver.find_element(By.ID, 'email_create').send_keys('gg@email.com')
 
 #mapeamento do click no botão de criar conta.
 driver.find_element(By.ID, 'SubmitCreate').click()
