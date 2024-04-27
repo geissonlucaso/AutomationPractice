@@ -2,7 +2,7 @@
 
 ## Cenários de Testes
 
-Este repositório contém modelos de testes automatizados realizados para o site [Automation Pratice](http://automationpractice.pl/index.php?controller=authentication&back=myaccount). Foram escolhidos três cenários de testes conforme descritos abaixo.
+Este repositório contém modelos de testes automatizados realizados para o site [Automation Pratice](http://automationpractice.pl/index.php?controller=authentication&back=myaccount). Foram escolhidos quatro cenários de testes conforme descritos abaixo.
 
 - Cenário 1: Verificar a criação de um novo usuário.
   - Dado que o usuário esteja na página de login "Authentication" do “automation practice”
